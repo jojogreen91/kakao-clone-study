@@ -12,7 +12,7 @@
   margin: 0px 1px;
 }
 
-.friends-screen__channel {
+.main-screen__friends {
   position: relative;
   top: 137px;
 }
@@ -39,7 +39,7 @@
   font-weight: 600;
 }
 
-.user-component--channel {
+.user-component__channel {
   top: 0px;
 }
 .user-component__avatar--sm {
