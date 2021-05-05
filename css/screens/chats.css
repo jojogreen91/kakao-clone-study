@@ -1,0 +1,33 @@
+.user-component__chats {
+  position: relative;
+  top: 93px;
+}
+.user-component__avatar--m {
+  border-radius: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+.user-component__column__chats:last-child {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.user-component__chats__time {
+  font-size: 13px;
+}
+.user-component__chats__notice {
+  background-color: tomato;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
