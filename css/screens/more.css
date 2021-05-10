@@ -6,10 +6,7 @@
 .user-component__more {
   margin-bottom: 30px;
 }
-.user-component__avatar--m {
-  width: 65px;
-  height: 65px;
-}
+
 .main-screen__more .user-component__column:nth-child(2) {
   color: rgba(0, 0, 0, 0.7);
 }
@@ -17,11 +14,12 @@
 .main-screen__more .icons:nth-child(2) .icons__icon:nth-child(2) {
   position: relative;
 }
-.icon__reddot {
-  position: absolute;
-  top: 0px;
-  right: 0px;
+.main-screen__more .icons:nth-child(2) .icons__icon:nth-child(2) i:first-child {
   color: tomato;
+  font-size: 10px;
+  position: absolute;
+  top: -8px;
+  right: 8px;
 }
 
 .main-screen__more .icons span {
@@ -34,4 +32,40 @@
 }
 .main-screen__more .icons:nth-child(3) {
   padding-bottom: 40px;
+}
+
+.suggetion {
+  margin-top: 25px;
+}
+.suggetion__title {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 25px;
+}
+.suggetion-box {
+  display: flex;
+  justify-content: space-between;
+}
+.suggetion-box .blank {
+  width: 25%;
+  height: 80px;
+}
+.suggetion-box__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.suggetion-box__img img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.suggetion-box__img span {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.45);
 }

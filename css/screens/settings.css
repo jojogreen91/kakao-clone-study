@@ -1,0 +1,42 @@
+.main-screen__settings {
+  position: relative;
+  top: 86px;
+}
+
+.fa-bullhorn,
+.fa-flask,
+.fa-lock,
+.fa-bell {
+  width: 22px;
+}
+.plus-icon {
+  font-size: 20px;
+  margin-left: 8px;
+  color: tomato;
+}
+
+.settings__setting {
+  font-size: 22px;
+  padding: 22px 0px;
+  padding-left: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.settings__setting i {
+  opacity: 0.9;
+  margin-right: 20px;
+}
+.settings__setting span {
+  opacity: 0.9;
+  font-weight: 600;
+}
+.settings__setting__status {
+  position: absolute;
+  right: 0;
+  color: rgba(0, 0, 0, 0.35);
+}
+.settings__setting:nth-child(3) {
+  border-bottom: none;
+}

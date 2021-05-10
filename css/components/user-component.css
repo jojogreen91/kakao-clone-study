@@ -15,11 +15,11 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 30px;
+  border-radius: 34%;
   margin-right: 20px;
 }
 .user-component__text {
-  font-weight: 800;
+  font-weight: 900;
   font-size: 20px;
 }
 .user-component__subtitle {

@@ -1,0 +1,23 @@
+.alt-screen-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px var(--horizontal-space);
+  position: fixed;
+  top: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+.alt-screen-header__column:first-child {
+  margin-right: auto;
+  font-size: 20px;
+}
+.alt-screen-header__column:nth-child(2) h1 {
+  font-size: 23px;
+  font-weight: 900;
+}
+.alt-screen-header__column:last-child {
+  margin-left: auto;
+  font-size: 15px;
+}
