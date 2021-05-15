@@ -19,3 +19,16 @@
 .screen-header__icon span {
   margin-left: 25px;
 }
+
+@keyframes cog-rotate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icon .fa-cog:hover {
+  animation: cog-rotate 2s linear infinite;
+}

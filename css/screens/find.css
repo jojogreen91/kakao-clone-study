@@ -94,9 +94,30 @@
   font-size: 15px;
   color: #ff65c4;
 }
+
 .open-post__img {
   position: relative;
 }
+
+@keyframes heartbeat {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(1.4);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+    color: white;
+  }
+}
+.open-post__img:hover i {
+  will-change: transform;
+  animation: heartbeat 0.7s ease-in-out infinite;
+}
+
 .open-post__img img {
   width: 100px;
   height: 100px;
