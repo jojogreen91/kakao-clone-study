@@ -1,2 +1,2 @@
-# Nomad-Coders, Kakao Clone Coding
-Using HTML & CSS for Cloning Kakao.
+# Kakao Clone Coding
+Using HTML & CSS for Cloning Kakao, Nomad-Coders
